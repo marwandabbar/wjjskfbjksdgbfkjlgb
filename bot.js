@@ -1283,7 +1283,6 @@ client.on("guildMemberAdd", member => {
 انت العضو رقم ${member.guild.memberCount} `) 
 }).catch(console.error)
 });
-client.login(process.env.BOT_TOKEN);
   client.on('message', msg => {//msg
     if (msg.content === 'slm') {
       msg.channel.send({file : "https://cdn.discordapp.com/attachments/460792477016784897/467623839732465664/Screenshot_4.jpg "})
@@ -1377,4 +1376,6 @@ client.on('message', message => {
     message.channel.send(image)
         }
     });
+client.login(process.env.BOT_TOKEN);
+
 
