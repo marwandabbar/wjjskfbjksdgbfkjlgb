@@ -1,0 +1,2 @@
+# wjjskfbjksdgbfkjlgb
+bot.tbi
